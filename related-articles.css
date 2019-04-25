@@ -1,70 +1,63 @@
-/* Social share button */
-
-.longviet-social {
-    margin: 10px 0px;
-    padding: 10px;
-    -webkit-font-smoothing: antialiased;
-    font-size: 12px;
-    border: 1px solid #eee;
+/* Related Articles */
+.related-posts-container .related-posts-title-block {
+    border-bottom: 2px solid #222;
 }
-
-.longviet-link {
-    padding: 4px 8px !important;
-    color: #fff !important;
-    font-size: 12px;
-    border-radius: 2px;
-    margin-right: 2px;
-    cursor: pointer;
-    margin-top: 2px;
+.related-posts-container .related-posts-title {
     display: inline-block;
-    text-decoration: none;
+    padding: 5px;
+	margin: 0;
+    color: #fff;
+    background-color: #222;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: open sans,arial,sans-serif;
 }
-
-.social-title h5 {
-    padding: 0px !important;
-    margin: 0 !important;
+.related-posts-inner {
+    display: block;
+	margin: 20px 0;
 }
- 
-.longviet-link:hover,.longviet-link:active {
-    color: white;
+.related-posts-inner .related-posts-blook {
+    display: flex;
 }
- 
-.longviet-twitter {
-    background: #00aced;
+.related-posts-inner li {
+    width: 31.33333%;
+    display: block;
+    clear: both;
+    list-style-type: none;
+    margin-right: 3%;
 }
- 
-.longviet-twitter:hover,.longviet-twitter:active {
-    background: #0084b4;
+.related-posts-inner .related-posts-2 {
+	margin-right: 0%;
 }
- 
-.longviet-facebook {
-    background: #3B5997;
+.related-posts-inner .related-posts-img {
+    position: relative;
 }
- 
-.longviet-facebook:hover,.longviet-facebook:active {
-    background: #2d4372;
+.related-posts-inner .entry-time {
+    position: absolute;
+    top: 0;
+    padding: 3px;
+    color: #fff;
+    background-color: #222;
+    line-height: 1;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: open sans,arial,sans-serif;
 }
- 
-.longviet-buffer {
-    background: #444;
+.related-posts-inner .entry-time::before {
+    content: '\f469';
+    font-family: dashicons;
+    font-size: 15px;
+    color: #fff;
+    padding-right: 3px;
+    vertical-align: middle;
 }
- 
-.longviet-buffer:hover,.longviet-buffer:active {
-    background: #222;
+.related-posts-inner .item-details {
+    margin-top: 20px;
 }
- 
-.longviet-pinterest {
-    background: #bd081c;
-}
- 
-.longviet-pinterest:hover,.longviet-pinterest:active {
-    background: #bd081c;
-}
- 
-.longviet-linkedin {
-    background: #0074A1;
-}
- 
-.longviet-linkedin:hover,.longviet-linkedin:active {
-    background: #006288;
+.related-posts-inner .entry-title {
+    font-size: 18px;
+    line-height: 1;
+	font-weight: 600;
+    font-family: open sans,arial,sans-serif;
 }
