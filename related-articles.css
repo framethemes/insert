@@ -1,0 +1,70 @@
+/* Social share button */
+
+.longviet-social {
+    margin: 10px 0px;
+    padding: 10px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    border: 1px solid #eee;
+}
+
+.longviet-link {
+    padding: 4px 8px !important;
+    color: #fff !important;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    margin-top: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-title h5 {
+    padding: 0px !important;
+    margin: 0 !important;
+}
+ 
+.longviet-link:hover,.longviet-link:active {
+    color: white;
+}
+ 
+.longviet-twitter {
+    background: #00aced;
+}
+ 
+.longviet-twitter:hover,.longviet-twitter:active {
+    background: #0084b4;
+}
+ 
+.longviet-facebook {
+    background: #3B5997;
+}
+ 
+.longviet-facebook:hover,.longviet-facebook:active {
+    background: #2d4372;
+}
+ 
+.longviet-buffer {
+    background: #444;
+}
+ 
+.longviet-buffer:hover,.longviet-buffer:active {
+    background: #222;
+}
+ 
+.longviet-pinterest {
+    background: #bd081c;
+}
+ 
+.longviet-pinterest:hover,.longviet-pinterest:active {
+    background: #bd081c;
+}
+ 
+.longviet-linkedin {
+    background: #0074A1;
+}
+ 
+.longviet-linkedin:hover,.longviet-linkedin:active {
+    background: #006288;
+}
